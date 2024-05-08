@@ -3,5 +3,7 @@ node_modules
 /target
 /pkg
 /wasm-pack.log
+SimpleWebSocket/node_modules
+SimpleWebSocket/dist
 .DS_Store
 .vscode

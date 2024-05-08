@@ -164,7 +164,7 @@ impl Component for Chat {
                 </div>
                 <div class="grow h-screen flex flex-col">
                     <div class="w-full h-14 border-b-2 border-gray-300"><div class="text-xl p-3">{"💬 Chat!"}</div></div>
-                    <div class="w-full grow overflow-auto border-b-2 border-gray-300">
+                    <div class="w-full grow overflow-auto border-b-2 border-gray-300" style="background-image: url('bg_chat.png'); background-size: cover;">
                         {
                             self.messages.iter().map(|m| {
                                 let user = self.users.iter().find(|u| u.name == m.from).unwrap();
